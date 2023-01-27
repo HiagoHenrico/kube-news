@@ -13,3 +13,6 @@ DB_USERNAME => Usuário do banco de dados.
 DB_PASSWORD => Senha do usuário do banco de dados.
 
 DB_HOST => Endereço do banco de dados.
+
+### 
+Aqui comprovo a realização do desafio 2 da Jornada DevOps feita por Fabricio Veronez 2023
