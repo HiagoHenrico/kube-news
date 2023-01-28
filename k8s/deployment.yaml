@@ -50,7 +50,7 @@ spec:
     spec:
       containers:
         - name: postgre
-          image: hiagosantos/kube-news:v1
+          image: hiagosantos/kube-news:{{TAG}}
           ports:
           - containerPort: 8080
           env: 
