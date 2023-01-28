@@ -47,10 +47,14 @@ spec:
     metadata:
       labels:
         app: web
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8080"
+        prometheus.io/path: "/metrics"
     spec:
       containers:
         - name: postgre
-          image: hiagosantos/kube-news:{{TAG}}
+          image: hiagosantos/kube-news:latest
           ports:
           - containerPort: 8080
           env: 
